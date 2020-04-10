@@ -19,16 +19,14 @@ export const getDeck = (theme) => {
 
 export const selectInitCards = (cards, level) => {
     const customCards = []
-    const differentCardsNeeded = (level[0] * level[1]) / 2
-    console.log('differentCardsNeeded', differentCardsNeeded)
+    const differentCardsNeeded = (level[0] * level[1]) / 2    
     for (let i = 0; i < differentCardsNeeded; i++) {
         const index = parseInt(Math.random() * cards.length)
         const card = cards[index]
         customCards.push(card)
         customCards.push({ id: card.id+'_bh', src: card.src, name: card.name}) // the better half :)
         cards.splice(index, 1)
-    }
-    console.log(customCards,'customCards')
+    }    
     return customCards
 }
 

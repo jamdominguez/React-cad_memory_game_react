@@ -1,76 +1,76 @@
 { "reverse": {
     "id": "reverse",
-    "src": "../../cards/ft/reverse.png"
+    "src": "/cards/ft/reverse.png"
     },
     "cards": [
         {
             "id": "grey_a",
-            "src": "../cards/ft/grey_a.png",
+            "src": "/cards/ft/grey_a.png",
             "name": "grey_a"
         },
         {
             "id": "grey_b",
-            "src": "../cards/ft/grey_b.png",
+            "src": "/cards/ft/grey_b.png",
             "name": "grey_b"
             
         },
         {
             "id": "happy_a",
-            "src": "../cards/ft/happy_a.png",
+            "src": "/cards/ft/happy_a.png",
             "name": "happy_a"
             
         },
         {
             "id": "happy_b",
-            "src": "../cards/ft/happy_b.png",
+            "src": "/cards/ft/happy_b.png",
             "name": "happy_b"
             
         },
         {
             "id": "lucy_a",
-            "src": "../cards/ft/lucy_a.png",
+            "src": "/cards/ft/lucy_a.png",
             "name": "lucy_a"
             
         },
         {
             "id": "lucy_b",
-            "src": "../cards/ft/lucy_b.png",
+            "src": "/cards/ft/lucy_b.png",
             "name": "lucy_b"
             
         },
         {
             "id": "mystogan_a",
-            "src": "../cards/ft/mystogan_a.png",
+            "src": "/cards/ft/mystogan_a.png",
             "name": "mystogan_a"
             
         },
         {
             "id": "mystogan_b",
-            "src": "../cards/ft/mystogan_b.png",
+            "src": "/cards/ft/mystogan_b.png",
             "name": "mystogan_b"
             
         },
         {
             "id": "natsu_a",
-            "src": "../cards/ft/natsu_a.png",
+            "src": "/cards/ft/natsu_a.png",
             "name": "natsu_a"
             
         },
         {
             "id": "natsu_b",
-            "src": "../cards/ft/natsu_b.png",
+            "src": "/cards/ft/natsu_b.png",
             "name": "natsu_b"
             
         },    
         {
             "id": "scarlet_a",
-            "src": "../cards/ft/scarlet_a.png",
+            "src": "/cards/ft/scarlet_a.png",
             "name": "scarlet_a"
             
         },
         {
             "id": "scarlet_b",
-            "src": "../cards/ft/scarlet_b.png",
+            "src": "/cards/ft/scarlet_b.png",
             "name": "scarlet_b"
             
         }

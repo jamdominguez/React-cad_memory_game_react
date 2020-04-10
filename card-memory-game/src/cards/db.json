@@ -1,76 +1,76 @@
 { "reverse": {
     "id": "reverse",
-    "src": "../../cards/db/reverse.png"
+    "src": "/cards/db/reverse.png"
     },
     "cards": [
         {
             "id": "cell_a",
-            "src": "../cards/db/cell_a.png",
+            "src": "/cards/db/cell_a.png",
             "name": "cell_a"
         },
         {
             "id": "cell_b",
-            "src": "../cards/db/cell_b.png",
+            "src": "/cards/db/cell_b.png",
             "name": "cell_b"
             
         },
         {
             "id": "cell_c",
-            "src": "../cards/db/cell_c.png",
+            "src": "/cards/db/cell_c.png",
             "name": "cell_c"
             
         },
         {
             "id": "freezer_c",
-            "src": "../cards/db/freezer_c.png",
+            "src": "/cards/db/freezer_c.png",
             "name": "freezer_c"
             
         },
         {
             "id": "gohan_a",
-            "src": "../cards/db/gohan_a.png",
+            "src": "/cards/db/gohan_a.png",
             "name": "gohan_a"
             
         },
         {
             "id": "gohan_b",
-            "src": "../cards/db/gohan_b.png",
+            "src": "/cards/db/gohan_b.png",
             "name": "gohan_b"
             
         },
         {
             "id": "gohan_c",
-            "src": "../cards/db/gohan_c.png",
+            "src": "/cards/db/gohan_c.png",
             "name": "gohan_c"
             
         },
         {
             "id": "gohan_goten_a",
-            "src": "../cards/db/gohan_goten_a.png",
+            "src": "/cards/db/gohan_goten_a.png",
             "name": "gohan_goten_a"
             
         },
         {
             "id": "goku_a",
-            "src": "../cards/db/goku_a.png",
+            "src": "/cards/db/goku_a.png",
             "name": "goku_a"
             
         },
         {
             "id": "vegeta_a",
-            "src": "../cards/db/vegeta_a.png",
+            "src": "/cards/db/vegeta_a.png",
             "name": "vegeta_a"
             
         },    
         {
             "id": "vegeta_b",
-            "src": "../cards/db/vegeta_b.png",
+            "src": "/cards/db/vegeta_b.png",
             "name": "vegeta_b"
             
         },
         {
             "id": "vegeta_c",
-            "src": "../cards/db/vegeta_c.png",
+            "src": "/cards/db/vegeta_c.png",
             "name": "vegeta_c"
             
         }
