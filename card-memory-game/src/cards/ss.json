@@ -1,0 +1,103 @@
+{
+    "reverse": {
+        "id": "reverse",
+        "src": "/cards/ss/reverse.png"
+    },
+    "cards": [
+        {
+            "id": "fenix_a",
+            "src": "/cards/ss/fenix_a.png",
+            "name": "fenix_a"
+        },
+        {
+            "id": "fenix_b",
+            "src": "/cards/ss/fenix_b.png",
+            "name": "fenix_b"
+        },
+        {
+            "id": "fenix_c",
+            "src": "/cards/ss/fenix_c.png",
+            "name": "fenix_c"
+        },
+        {
+            "id": "hades_a",
+            "src": "/cards/ss/hades_a.png",
+            "name": "hades_a"
+        },
+        {
+            "id": "hyoga_a",
+            "src": "/cards/ss/hyoga_a.png",
+            "name": "hyoga_a"
+        },
+        {
+            "id": "hyoga_b",
+            "src": "/cards/ss/hyoga_b.png",
+            "name": "hyoga_b"
+        },
+        {
+            "id": "hyoga_c",
+            "src": "/cards/ss/hyoga_c.png",
+            "name": "hyoga_c"
+        },
+        {
+            "id": "leo_a",
+            "src": "/cards/ss/leo_a.png",
+            "name": "leo_a"
+        },
+        {
+            "id": "poseidon_a",
+            "src": "/cards/ss/poseidon_a.png",
+            "name": "poseidon_a"
+        },
+        {
+            "id": "sagitario_a",
+            "src": "/cards/ss/sagitario_a.png",
+            "name": "sagitario_a"
+        },
+        {
+            "id": "seiya_a",
+            "src": "/cards/ss/seiya_a.png",
+            "name": "seiya_a"
+        },
+        {
+            "id": "seiya_b",
+            "src": "/cards/ss/seiya_b.png",
+            "name": "seiya_b"
+        },
+        {
+            "id": "seiya_c",
+            "src": "/cards/ss/seiya_c.png",
+            "name": "seiya_c"
+        },
+        {
+            "id": "shiryu_a",
+            "src": "/cards/ss/shiryu_a.png",
+            "name": "shiryu_a"
+        },
+        {
+            "id": "shiryu_c",
+            "src": "/cards/ss/shiryu_c.png",
+            "name": "shiryu_c"
+        },
+        {
+            "id": "shiryu_c",
+            "src": "/cards/ss/shiryu_c.png",
+            "name": "shiryu_c"
+        },
+        {
+            "id": "shun_a",
+            "src": "/cards/ss/shun_a.png",
+            "name": "shun_a"
+        },
+        {
+            "id": "shun_b",
+            "src": "/cards/ss/shun_b.png",
+            "name": "shun_b"
+        },
+        {
+            "id": "shun_c",
+            "src": "/cards/ss/shun_c.png",
+            "name": "shun_c"
+        }
+    ]
+}

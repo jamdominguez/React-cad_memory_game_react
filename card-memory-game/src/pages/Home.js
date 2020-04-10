@@ -1,14 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Container } from 'react-bootstrap'
 
 export class Home extends React.Component {
     render() {
-        return(
-            <div>
+        return (
+            <Container className=''>
                 <Link to='/configgame' >
-                    <button>Play</button>
+                    <img className='home-image' src='/themes/start.png' alt='Play' />
                 </Link>
-            </div>
+                <h2>Touch to play</h2>
+            </Container>
         )
     }
 }

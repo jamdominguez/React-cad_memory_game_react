@@ -1,32 +1,35 @@
 
 import db from '../cards/db.json'
 import ft from '../cards/ft.json'
+import ss from '../cards/ss.json'
 
 const returnDataAccordingTheme = (theme) => {
     switch (theme.toLowerCase()) {
         case 'db':
             return db
         case 'ft':
-            return ft            
+            return ft
+        case 'ss':
+            return ss
         default:
             return []
     }
 }
 
 export const getDeck = (theme) => {
-    return returnDataAccordingTheme(theme)    
+    return returnDataAccordingTheme(theme)
 }
 
 export const selectInitCards = (cards, level) => {
     const customCards = []
-    const differentCardsNeeded = (level[0] * level[1]) / 2    
+    const differentCardsNeeded = (level[0] * level[1]) / 2
     for (let i = 0; i < differentCardsNeeded; i++) {
         const index = parseInt(Math.random() * cards.length)
         const card = cards[index]
         customCards.push(card)
-        customCards.push({ id: card.id+'_bh', src: card.src, name: card.name}) // the better half :)
+        customCards.push({ id: card.id + '_bh', src: card.src, name: card.name }) // the better half :)
         cards.splice(index, 1)
-    }    
+    }
     return customCards
 }
 
@@ -35,7 +38,7 @@ export const shuffleInitCards = (customCards) => {
 }
 
 export const getCardsForPanel = (cards, level) => {
-    let customCards =selectInitCards(cards, level)
+    let customCards = selectInitCards(cards, level)
     shuffleInitCards(customCards)
     return customCards
 }
@@ -47,5 +50,5 @@ export const getFooArray = (level) => {
         foo.push(i)
         i++
     }
-    return foo        
+    return foo
 }
