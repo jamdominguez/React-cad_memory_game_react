@@ -1,12 +1,19 @@
 .App {
   text-align: center;
   background-color: #282c34;
-  background-image: url('/background/bg4.png');
+  height: 100%;
+  /*background-image: url('/background/bg4.png');*/
 }
+
+body{  
+  height: 100%;
+  margin: 0.1em
+}
+
 .container-game-menu {
     margin-top: 1em;    
-    padding: 1em;
-    border-top: solid 2px black;
+    padding: 1em;    
+    border-top: solid 2px #8c9cbb;
 }
 
 .parent {
@@ -63,14 +70,32 @@ figure {
 }
 
 .container-theme{
-  margin-top: 2em;
+  margin-top: .1em;
 }
 .option-game{
-  color: black;
+  cursor: pointer;
+  color: #8c9cbb;
   width: 200px;
   height: 100px;
   cursor: pointer;
 }
+
+.option-game:hover{
+  color: #c3d1ee;
+}
+
+.option-game:active{
+  color: whitesmoke;
+}
+
+h2{
+  color: #8c9cbb;
+}
+
+.margin-space {
+  height: 100px;
+}
+
 /*
 .container-game{
   display: flex;  

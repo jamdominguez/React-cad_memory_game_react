@@ -15,4 +15,5 @@ This consist in a web card memory game.
 This project is development usgin React JS library, creating a SPA and using the next dependencies:
 
 - React Rounter Dom: For page routing;  `npm install --save-dev react-router-dom`
-- React Boostrap and Boostrap: For styles; npm install `--save-dev react-boostrap boostrap`
+- React Boostrap and Boostrap: For styles; `npm install --save-dev react-bootstrap bootstrap`
+- React Icons: `npm install --save-dev react-icons`

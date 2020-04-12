@@ -11,6 +11,7 @@ export class SelectTheme extends React.Component {
         console.log('props', this.props)
         return (
             <Container className='container-theme'>
+                <Row><Container className='margin-space' ></Container></Row>
                 <Row>
                     <Col className='title-theme'><img width='50%' id='db' onClick={this.handleTheme} src='/themes/db.png' alt='Dragon Ball Z' /></Col>
                     <Col className='title-theme'><img width='50%' id='ft' onClick={this.handleTheme} src='/themes/ft.png' alt='Fariry Tail' /></Col>
@@ -23,6 +24,7 @@ export class SelectTheme extends React.Component {
                     <Col className='title-theme'><img width='50%' id='op' onClick={this.handleTheme} src='/themes/op.png' alt='One Piece' /></Col>
                     <Col className='title-theme'><img width='50%' id='sds' onClick={this.handleTheme} src='/themes/sds.png' alt='Seven Deadly Sins' /></Col>
                 </Row>
+                <Row><Container className='margin-space' ></Container></Row>
             </Container>
         )
     }
